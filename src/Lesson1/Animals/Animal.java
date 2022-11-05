@@ -24,9 +24,9 @@ public abstract class Animal {
     }
 
     public void swim(int distance) {
-        if (maxSwimDistance < 0)
+        if (maxSwimDistance < 0) {
             System.out.printf("%s не умеет плавать%n", name);
-        else {
+        } else {
             int swimDistance = distance < maxSwimDistance ? distance : maxSwimDistance;
             System.out.printf("%s проплыл %d м.%n", name, swimDistance);
         }

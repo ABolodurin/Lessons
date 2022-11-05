@@ -7,8 +7,8 @@ public class PetCat extends Cat{
         return catCount;
     }
 
-    public PetCat(String name, int maxRunDistance) {
-        super(name, maxRunDistance);
+    public PetCat(String name) {
+        super(name, 200);
         catCount++;
     }
 }

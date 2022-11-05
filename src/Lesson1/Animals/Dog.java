@@ -7,8 +7,8 @@ public class Dog extends Animal{
         return dogCount;
     }
 
-    public Dog(String name, int maxRunDistance, int maxSwimDistance) {
-        super(name, maxRunDistance, maxSwimDistance);
+    public Dog(String name) {
+        super(name, 500, 10);
         dogCount++;
     }
 }

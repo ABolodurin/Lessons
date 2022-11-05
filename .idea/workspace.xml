@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8bf5274-16d9-4c43-8314-97316f421221" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="e8bf5274-16d9-4c43-8314-97316f421221" name="Changes" comment="Lesson1 complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson1/Animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson1/Animals/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson1/Animals/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson1/Animals/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson1/Animals/PetCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson1/Animals/PetCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson1/Animals/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson1/Animals/Tiger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +33,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson1.Main" />
+      <module name="Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,6 +68,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667585674852</updated>
     </task>
+    <task id="LOCAL-00001" summary="Lesson1 complete">
+      <created>1667587086173</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667587086173</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -56,5 +88,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lesson1 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson1 complete" />
   </component>
 </project>

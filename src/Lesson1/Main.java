@@ -11,15 +11,15 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         List<Animal> animals = Arrays.asList(
-                new Dog("Вадик", 1000, 100),
-                new PetCat("Артемий", 200),
-                new Tiger("Игорян", 800),
-                new Dog("Водяной", 500, 400));
+                new Dog("Вадик"),
+                new PetCat("Артемий"),
+                new Tiger("Игорян"),
+                new Dog("Водяной"));
 
         for (Animal a :
                 animals) {
             a.run(700);
-            a.swim(300);
+            a.swim(15);
         }
         System.out.println();
 

@@ -7,8 +7,8 @@ public class Tiger extends Cat{
         return tigerCount;
     }
 
-    public Tiger(String name, int maxRunDistance) {
-        super(name, maxRunDistance);
+    public Tiger(String name) {
+        super(name, 800);
         tigerCount++;
     }
 }
