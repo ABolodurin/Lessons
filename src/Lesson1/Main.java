@@ -16,8 +16,7 @@ public class Main {
                 new Tiger("Игорян"),
                 new Dog("Водяной"));
 
-        for (Animal a :
-                animals) {
+        for (Animal a : animals) {
             a.run(700);
             a.swim(15);
         }
