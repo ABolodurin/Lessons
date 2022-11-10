@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8bf5274-16d9-4c43-8314-97316f421221" name="Changes" comment="Lesson1 complete">
+    <list default="true" id="e8bf5274-16d9-4c43-8314-97316f421221" name="Changes" comment="Lesson3 completed">
+      <change afterPath="$PROJECT_DIR$/src/Lesson4/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson4/Fruits/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson4/Fruits/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson4/Fruits/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson4/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson1/Animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson1/Animals/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson1/Animals/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson1/Animals/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson1/Animals/PetCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson1/Animals/PetCat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson1/Animals/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson1/Animals/Tiger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -26,7 +33,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2H5rEGQNSK6a4SgtUn9XVQ7FSK3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -39,7 +48,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Lesson4.Main">
+    <configuration name="Lesson4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson4.Main" />
+      <module name="Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson1.Main" />
       <module name="Lessons" />
@@ -55,6 +77,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson4.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
