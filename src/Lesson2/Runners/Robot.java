@@ -1,11 +1,12 @@
 package Lesson2.Runners;
 
+import Lesson2.Obstacles.Obstacle;
 import Lesson2.Obstacles.RunningTrack;
 import Lesson2.Obstacles.Wall;
 
-public class Robot implements Runnable, Jumpable {
+public class Robot implements RunAndJump {
 
-    private String name;
+    private final String name;
 
     private static final int JUMP_HEIGHT = 2000;
     private static final int RUN_STAMINA = 1500;
@@ -15,6 +16,7 @@ public class Robot implements Runnable, Jumpable {
     public void rest() {
         currentStamina = RUN_STAMINA;
     }
+
 
     @Override
     public boolean jump(Wall wall) {
@@ -28,9 +30,7 @@ public class Robot implements Runnable, Jumpable {
     }
 
     @Override
-    public boolean run(RunningTrack runningTrack, boolean continuing) {
-        if (!continuing) rest();
-
+    public boolean run(RunningTrack runningTrack) {
         currentStamina -= runningTrack.getDistance();
         if (currentStamina >= 0) {
             System.out.printf("%s пробежал участок %dм.%n", name, runningTrack.getDistance());
@@ -40,12 +40,27 @@ public class Robot implements Runnable, Jumpable {
             return false;
         }
 
-
     }
 
     public Robot(String name) {
         this.name = name;
-        rest();
+        currentStamina = RUN_STAMINA;
+    }
+
+    @Override
+    public boolean tryToPass(Obstacle obstacle) {
+        if (obstacle instanceof Wall) {
+            return jump((Wall) obstacle);
+        } else if (obstacle instanceof RunningTrack) {
+            return run((RunningTrack) obstacle);
+        } else {
+            System.out.println("error");
+            return false;
+        }
+    }
+
+    public int getCurrentStamina() {
+        return currentStamina;
     }
 
     public String getName() {

@@ -1,7 +1,7 @@
 package Lesson2.Obstacles;
 
 public class Wall implements Obstacle {
-    private int height;
+    private final int height;
 
     public int getHeight() {
         return height;

@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8bf5274-16d9-4c43-8314-97316f421221" name="Changes" comment="corrections done">
-      <change afterPath="$PROJECT_DIR$/src/Lesson2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2/Obstacles/Obstacle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2/Obstacles/Passable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2/Obstacles/RunningTrack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2/Obstacles/Wall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2/Runners/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2/Runners/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2/Runners/Jumpable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2/Runners/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2/Runners/Runnable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2/Obstacles/Passable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Obstacles/Passable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2/Runners/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Runners/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2/Runners/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Runners/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2/Runners/Jumpable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2/Runners/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Runners/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2/Runners/Runnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Runners/RunAndJump.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
