@@ -2,14 +2,14 @@ package Lesson4;
 
 import Lesson4.Fruits.Fruit;
 
-import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 
 public class Box<T extends Fruit> {
-    private ArrayList<T> container;
+    private final LinkedList<T> container;
 
     public Box() {
-        container = new ArrayList<>();
+        container = new LinkedList<>();
     }
 
     public void add(T... fruits) {
@@ -17,7 +17,7 @@ public class Box<T extends Fruit> {
     }
 
     public T remove() {
-        T fruit = container.get(0);
+        T fruit = container.getFirst();
         container.remove(0);
         return fruit;
     }
@@ -33,13 +33,12 @@ public class Box<T extends Fruit> {
     }
 
     public boolean compareTo(Box<? extends Fruit> another) {
-        if (another != null) {
-            return Math.abs(this.getWeight() - another.getWeight()) < 0.01F;
-        } else return false;
+        if (another != null) return Math.abs(this.getWeight() - another.getWeight()) < 0.01F;
+        return false;
     }
 
-    public void moveTo(Box<T> another){
-        while (!(this.container.isEmpty())){
+    public void moveTo(Box<T> another) {
+        while (!(this.container.isEmpty())) {
             another.add(this.remove());
         }
     }
