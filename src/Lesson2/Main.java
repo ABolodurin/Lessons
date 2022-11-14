@@ -36,7 +36,7 @@ public class Main {
 
         for (RunAndJump runner : runners) {
             for (Obstacle o : obstacles) {
-                if (!(runner.tryToPass(o))) break;
+                if (!(o.attemptToPass(runner))) break;
             }
         }
 

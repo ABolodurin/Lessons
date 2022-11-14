@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8bf5274-16d9-4c43-8314-97316f421221" name="Changes" comment="corrections done">
+    <list default="true" id="e8bf5274-16d9-4c43-8314-97316f421221" name="Changes" comment="Corrections done.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson2/Obstacles/Passable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Obstacles/Passable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2/Obstacles/Obstacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Obstacles/Obstacle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2/Obstacles/RunningTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Obstacles/RunningTrack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2/Obstacles/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Obstacles/Wall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson2/Runners/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Runners/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson2/Runners/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Runners/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson2/Runners/Jumpable.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson2/Runners/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Runners/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson2/Runners/Runnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Runners/RunAndJump.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2/Runners/RunAndJump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Runners/RunAndJump.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667587086173</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Corrections done.">
+      <created>1668181715199</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668181715199</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +125,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson1 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson1 complete" />
+    <MESSAGE value="Corrections done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrections done." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Lesson2/Main.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,71 +1,44 @@
 package Lesson2.Runners;
 
-import Lesson2.Obstacles.Obstacle;
-import Lesson2.Obstacles.RunningTrack;
-import Lesson2.Obstacles.Wall;
-
 public class Robot implements RunAndJump {
-
-    private final String name;
 
     private static final int JUMP_HEIGHT = 2000;
     private static final int RUN_STAMINA = 1500;
+    private final String name;
     private int currentStamina;
+    private final int jumpHeight;
+
+    public Robot(String name) {
+        this.name = name;
+        this.jumpHeight = JUMP_HEIGHT;
+        currentStamina = RUN_STAMINA;
+    }
 
     @Override
     public void rest() {
         currentStamina = RUN_STAMINA;
     }
 
-
     @Override
-    public boolean jump(Wall wall) {
-        if (wall.getHeight() <= JUMP_HEIGHT) {
-            System.out.printf("%s перепрыгнул препядствие%n", name);
-            return true;
-        } else {
-            System.out.printf("%s не смог перепрыгнуть препядствие%n", name);
-            return false;
-        }
-    }
-
-    @Override
-    public boolean run(RunningTrack runningTrack) {
-        currentStamina -= runningTrack.getDistance();
-        if (currentStamina >= 0) {
-            System.out.printf("%s пробежал участок %dм.%n", name, runningTrack.getDistance());
-            return true;
-        } else {
-            System.out.printf("%s не смог пробежать участок %dм.%n", name, runningTrack.getDistance());
-            return false;
-        }
-
-    }
-
-    public Robot(String name) {
-        this.name = name;
-        currentStamina = RUN_STAMINA;
-    }
-
-    @Override
-    public boolean tryToPass(Obstacle obstacle) {
-        if (obstacle instanceof Wall) {
-            return jump((Wall) obstacle);
-        } else if (obstacle instanceof RunningTrack) {
-            return run((RunningTrack) obstacle);
-        } else {
-            System.out.println("error");
-            return false;
-        }
+    public boolean run(int distance) {
+        setCurrentStamina(getCurrentStamina()-distance);
+        return getCurrentStamina() >= 0;
     }
 
     public int getCurrentStamina() {
         return currentStamina;
     }
 
+    public int getJumpHeight() {
+        return jumpHeight;
+    }
+
     public String getName() {
         return name;
     }
 
+    private void setCurrentStamina(int stamina){
+        this.currentStamina = stamina;
+    }
 
 }
