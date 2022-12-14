@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8bf5274-16d9-4c43-8314-97316f421221" name="Changes" comment="Corrections done.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson2/Obstacles/Obstacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Obstacles/Obstacle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson2/Obstacles/RunningTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Obstacles/RunningTrack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson2/Obstacles/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Obstacles/Wall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson2/Runners/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Runners/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson2/Runners/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Runners/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson2/Runners/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Runners/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson2/Runners/RunAndJump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Runners/RunAndJump.java" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,14 +12,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Interface" />
+
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,13 +43,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Lesson2.Main">
-    <configuration name="Lesson2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2.Main" />
-      <module name="Lessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson2.*" />
+
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,7 +66,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lesson2.Main" />
+
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -135,6 +120,17 @@
           <url>file://$PROJECT_DIR$/src/Lesson2/Main.java</url>
           <line>36</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Lesson3/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
