@@ -14,7 +14,8 @@ public class Main {
 
         TelephoneBook book = new TelephoneBook();
         book.add("Brun", "79991234567");
-        book.add("dg", "7999765432");
+        book.add("Brun", "79991235467");
+        book.add("dg", "79997054321");
         book.get("Brun");
     }
 
@@ -23,7 +24,8 @@ public class Main {
         String temp;
         HashMap<String, Integer> result = new HashMap<>();
         for (String s : data) {
-            temp = s.replaceAll("(?U)[\\pP\\s]", "");
+            temp = s.replaceAll(",", "")
+                    .replaceAll("\\.", "");
             if (!(result.containsKey(temp))) {
                 result.put(temp, 1);
             } else {

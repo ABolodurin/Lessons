@@ -1,9 +1,10 @@
 package Lesson5.TelephoneBook;
 
 import java.util.HashMap;
+import java.util.HashSet;
 
 public class TelephoneBook {
-    private final HashMap<String, String> book;
+    private final HashMap<String, HashSet<String>> book;
 
     public TelephoneBook() {
         book = new HashMap<>();
@@ -13,20 +14,16 @@ public class TelephoneBook {
         System.out.println("phones for " + surname + ": " + book.get(surname));
     }
 
-    public void add(String surname, String phone79991234567) {
-        try {
-            double phone = Double.parseDouble(phone79991234567);
-            if (phone < 10000000000L || phone > 99999999999L) {
-                throw new TelephoneBookException("phone number must be 79991234567: " + phone79991234567);
-            }
-        } catch (NumberFormatException e) {
-            throw new TelephoneBookException("phone number must be 79991234567: " + phone79991234567);
-        }
-
-        if (!(book.containsKey(surname))) {
-            book.put(surname, phone79991234567);
-        } else book.put(surname, book.get(surname) + ", " + phone79991234567);
+    public void add(String surname, String phoneNumber) {
+        checkNumber(phoneNumber);
+        if (!(book.containsKey(surname))) book.put(surname, new HashSet<>());
+        book.get(surname).add(phoneNumber);
     }
 
+    private void checkNumber(String phoneNumber){
+        String regex = "\\d*";
+        if (phoneNumber.length() != 11 || !(phoneNumber.matches(regex)))
+            throw new TelephoneBookException("incorrect phone number format: " + phoneNumber);
+    }
 
 }
